@@ -57,3 +57,13 @@ Wed 13 Mar 2024 09:08:38 PM UTC:
  tests:  0|5
 total_score: 20/70
 e020496
+Wed 13 Mar 2024 09:20:20 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:60:15: error: array subscript is not an integer
+   60 |       newArray[newSize] = arr[i];
+      |               ^
+Compilation failed
+94522dc
