@@ -51,3 +51,9 @@ Wed 13 Mar 2024 08:51:15 PM UTC:
  tests:  0|4
 total_score: 30/70
 4f5a16e
+Wed 13 Mar 2024 09:08:38 PM UTC: 
+ exercises.c | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+ tests:  0|5
+total_score: 20/70
+e020496
