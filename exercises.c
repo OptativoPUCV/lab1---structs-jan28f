@@ -68,6 +68,15 @@ Descripción: Escribe una función que tome dos arreglos
 ordenados y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado.
 */
+int comparar(const void *pivot, const void *item)
+{
+  int *ptrPivot = (int *)pivot;
+  int *ptrItem = (int *)item;
+
+  if (*ptrPivot > *ptrItem) return 1;
+  return 0;
+}
+
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
                        int result[])
 {
@@ -78,6 +87,8 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
     result[i] = arr1[i];
   for (int k = 0 ; k < size2 ; k++)
     result[size1 + k] = arr2[k];
+
+  qsort(result, newSize, sizeof(int), comparar);
 }
 
 /*
