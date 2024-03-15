@@ -54,7 +54,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
   {
     if (arr[i] % 2 == 0)
     {
-      newArray = (int *)realloc(newArray, sizeof(int) * (*newSize + 1));
+      newArray = (int *)realloc(newArray, sizeof(int) * ((*newSize) + 1));
       if (newArray == NULL) exit(EXIT_FAILURE);
 
       newArray[*newSize] = arr[i];
