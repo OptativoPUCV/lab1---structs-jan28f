@@ -96,12 +96,9 @@ int checkSorted(int arr[], int size)
       descentente++;
   }
 
-  if (ascendete == size - 1)
-    return 1;
-  else if (descentente == size - 1)
-    return -1;
-  else
-    return 0;
+  if (descentente == 0) return 1;
+  if (ascendete == 0) return -1;
+  return 0;
 }
 
 /*
