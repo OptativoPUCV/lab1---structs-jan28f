@@ -73,7 +73,7 @@ int comparar(const void *pivot, const void *item)
   int *ptrPivot = (int *)pivot;
   int *ptrItem = (int *)item;
 
-  if (*ptrPivot > *ptrItem) return 1;
+  if (*ptrPivot < *ptrItem) return 1;
   return 0;
 }
 
