@@ -165,3 +165,9 @@ exercises.c:57:72: error: expected ‘;’ before ‘newArray’
       |       ~~~~~~~~                                                          
 Compilation failed
 cb57e82
+Fri 15 Mar 2024 10:51:31 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|2
+total_score: 50/70
+8ceb97c
